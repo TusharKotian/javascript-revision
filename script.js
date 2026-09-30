@@ -98,23 +98,24 @@
 //     console.log("You are eligible for the job");
 // }
 
-const prompt = require("prompt-sync")();
+// const prompt = require("prompt-sync")();
 
-let Units=prompt("Enter the Units consumed: ");
-let bill=0;
+// let Units=prompt("Enter the Units consumed: ");
+// let bill=0;
 
-if(Units<=100){
-    bill=Units*5;
-}
-else if (Units>100 && Units<=200){
-    bill=100*5+(Units-100)*7;
-}
-else if(Units > 200 && Units <= 300){
-    bill=(100*5)+(100*7)+(Units-200)*10;
-}
-else{
-    bill=(100*2)+(100*7)+(100*10)+(Units-300)*15;
-}
+// if(Units<=100){
+//     bill=Units*5;
+// }
+// else if (Units>100 && Units<=200){
+//     bill=100*5+(Units-100)*7;
+// }
+// else if(Units > 200 && Units <= 300){
+//     bill=(100*5)+(100*7)+(Units-200)*10;
+// }
+// else{
+//     bill=(100*2)+(100*7)+(100*10)+(Units-300)*15;
+// }
 
-console.log(`Total Bill: ${bill}`);
+// console.log(`Total Bill: ${bill}`);
+
 

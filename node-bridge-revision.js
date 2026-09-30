@@ -72,10 +72,20 @@
 // }
 // console.log(newUser);
 
-function calculateTotal(...numbers){
-    return numbers.reduce((sum,num)=>{
-        return sum+num;
-    },0);
+// function calculateTotal(...numbers){
+//     return numbers.reduce((sum,num)=>{
+//         return sum+num;
+//     },0);
+// }
+
+// console.log(calculateTotal(1, 2, 3, 4, 5));
+
+function greet(name,callback){
+    console.log("hello "+name);
+    callback();
+}
+function done(){
+    console.log("Task completed!");
 }
 
-console.log(calculateTotal(1, 2, 3, 4, 5));
+console.log(greet("Tushar",done));
